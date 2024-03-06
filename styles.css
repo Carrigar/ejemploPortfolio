@@ -1,0 +1,88 @@
+*{margin: 0%; padding: 0%; font-family: sans-serif;}
+
+header{    
+    background-image: linear-gradient(rgb(155, 181, 236), rgb(28, 67, 78));
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    /* background-color: rgb(28, 67, 78);*/
+    color: aliceblue;
+}
+
+#imgHeader{
+    width: 300px;
+    border-radius: 100%;
+}
+
+/* h1{
+    color: aliceblue;
+} */
+
+section{
+    text-align: center;
+}
+
+.divSeccion{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    /* background-color: rgb(151, 216, 194); */
+    background-color: rgb(83, 161, 177);
+    /* color: aliceblue; */
+    border-radius: 30px;
+}
+
+h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#divContacto{
+    background-color: rgb(28, 67, 78);
+    color: aliceblue;
+    padding: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+
+} 
+
+label{
+    text-align: start;
+    padding-top: 10px;
+}
+
+input{
+    padding: 7px;
+    border-radius: 7px;
+}
+textarea{
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#btnForm{
+    width: 70px;
+    background-color: rgb(214, 210, 214);
+
+}
+
+footer{
+    background-image: linear-gradient( rgb(28, 67, 78), rgb(155, 181, 236));
+    display:flex;
+    justify-content: center;
+}
+
+.footerImg{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    width: 50px;
+}
